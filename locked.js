@@ -1,6 +1,8 @@
-const button = document.querySelector('.btn')
+const button = document.getElementById('enter')
 const place = document.querySelector('.input')
 
+
 button.addEventListener('click', () => {
-    place.placeholder= 'locked'
+    console.log("CLICK")
+    place.placeholder = 'locked'
 })
